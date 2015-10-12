@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\ABR_client\iOIOLibAccessory\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ea9283a82e85c25fb6b5eff599f4ae7ac4f72afb">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-019c1a72c92448bf0cd449f4a3b933e347dfc679.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\ABR_client\iOIOLibAndroid\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ab51383befc399ad3103f69eaf323280c124124">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-3276bb37f45737b7eb470050cac2b8db97b62458.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\ABR_client\openCVLibrary249\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="824a0462a30a96cca10382df5bb9b25936fc19ff">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-5e426dd887361d0172d6802a428fd42794118cef.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\ABR_client\iOIOLibBT\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c5b863baed855bc4b279e20c2e7fe7f17409c90">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-741136471d9466577a8a1944fa67701d7d6a6bdd.jar" />
+    </item>
+
+</items>
