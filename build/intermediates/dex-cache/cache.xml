@@ -2,32 +2,67 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\ABR_client\iOIOLibAccessory\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ea9283a82e85c25fb6b5eff599f4ae7ac4f72afb">
-        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-019c1a72c92448bf0cd449f4a3b933e347dfc679.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\ABR_client\iOIOLibAndroid\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8ab51383befc399ad3103f69eaf323280c124124">
-        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-3276bb37f45737b7eb470050cac2b8db97b62458.jar" />
-    </item>
-    <item
         jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\ABR_client\openCVLibrary249\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="824a0462a30a96cca10382df5bb9b25936fc19ff">
+        sha1="203bf37633b08132e2ad0b777b078840ad96b011">
         <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-5e426dd887361d0172d6802a428fd42794118cef.jar" />
     </item>
     <item
-        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\ABR_client\iOIOLibBT\unspecified\jars\classes.jar"
+        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidBluetooth\5.05\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="2c5b863baed855bc4b279e20c2e7fe7f17409c90">
-        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-741136471d9466577a8a1944fa67701d7d6a6bdd.jar" />
+        sha1="f347dcaafe682fdd3d3131c9d6568065a8cd83ab">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-158a94c49c9bc9057fc7226a1b93349320b47c31.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroid\5.05\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c76a0936c82cef3da0770204f51f4914f32f6e08">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-79837eea5921d858acb897252232a5645c4cc3e5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidAccessory\5.05\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fc276dd77600f248e53cc0bbf77a011d87931840">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-0bf45e71e60b8094f8fd71666b8033a1a2784fce.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gego\.gradle\caches\modules-2\files-2.1\com.github.ytai.ioio\IOIOLibPC\5.05\bd007477f65252db60bdfc9e80a0d47dd10d029d\IOIOLibPC-5.05.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bd007477f65252db60bdfc9e80a0d47dd10d029d">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\IOIOLibPC-5.05-8ece5c76463c6c97189f76b4267caf0874014437.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gego\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.0.0\9b3a11c613ec3fd3440af4103b12c3de82d38b6e\jna-4.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9b3a11c613ec3fd3440af4103b12c3de82d38b6e">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\jna-4.0.0-192cc31ebc1e93663c53191b424b3e53391b6182.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidDevice\5.05\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7eb8cafa44ed70860615af51c83606945c43fe73">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\classes-3866c08461cb99cbc7173dba41288238f09730ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gego\.gradle\caches\modules-2\files-2.1\com.github.ytai.ioio\IOIOLibCore\5.05\99821d5ab444306c6e39f3de72f85c4b287a6765\IOIOLibCore-5.05.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="99821d5ab444306c6e39f3de72f85c4b287a6765">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\IOIOLibCore-5.05-550bcb3059972f99d66535bdbda48c0be5e79d34.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gego\.gradle\caches\modules-2\files-2.1\com.sparetimelabs\purejavacomm\0.0.22\a2a6087f928d33e7b58670b64afe4539f0cac62d\purejavacomm-0.0.22.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a2a6087f928d33e7b58670b64afe4539f0cac62d">
+        <dex dex="C:\Users\Gego\StudioProjects\ABR_client\aBR_client\build\intermediates\pre-dexed\debug\purejavacomm-0.0.22-4d0f5d633834999e4125ec5cd575dd19a6080b23.jar" />
     </item>
 
 </items>

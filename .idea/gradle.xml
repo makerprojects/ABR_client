@@ -10,9 +10,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/aBR_client" />
-            <option value="$PROJECT_DIR$/iOIOLibAccessory" />
-            <option value="$PROJECT_DIR$/iOIOLibAndroid" />
-            <option value="$PROJECT_DIR$/iOIOLibBT" />
             <option value="$PROJECT_DIR$/openCVLibrary249" />
           </set>
         </option>

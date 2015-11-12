@@ -92,15 +92,13 @@ public class Camera_feedback
 		NEW_FRAME = false;
 		try 
 		{			 
-			mCamera = Camera.open();      			
+			mCamera = Camera.open();
 			dummy_surface = new SurfaceTexture(1);							// so we do not display the video frame on the screen (trick)
-
-			Camera.Parameters parameters = mCamera.getParameters(); 
+			Camera.Parameters parameters = mCamera.getParameters();
 			mSupportedPreviewSizes = parameters.getSupportedPreviewSizes();	
 			mPreviewSize = mSupportedPreviewSizes.get(idx_selected_size);
 			parameters.setPreviewSize(mPreviewSize.width, mPreviewSize.height);
 			mCamera.setParameters(parameters);
-
 			try { mCamera.setPreviewTexture(dummy_surface); } catch (IOException t) {}
 
 			mCamera.setPreviewCallback(new cam_PreviewCallback());			// create a new cam_PreviewCallback and attach it to the camera
