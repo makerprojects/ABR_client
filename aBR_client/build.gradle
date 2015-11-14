@@ -26,5 +26,6 @@ dependencies {
     compile 'com.github.ytai.ioio:IOIOLibAndroidDevice:5.05'
 
     /* compile locally */
-    compile project(':openCVLibrary249')
+
+    compile project(':openCVLibrary2411')
 }

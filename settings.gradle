@@ -1,8 +1,4 @@
-/*
-include ':iOIOLibAndroid'
-include ':iOIOLibAccessory'
-include ':iOIOLibBT'
-*/
 
 include ':aBR_client'
-include ':openCVLibrary249'
+include ':openCVLibrary2411'
+
