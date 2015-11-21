@@ -66,11 +66,19 @@ import java.util.List;
 import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
+
+/*
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfByte;
 import org.opencv.core.MatOfInt;
 import org.opencv.highgui.Highgui;
+*/
+
+import org.opencv.core.*; 	// new defs for openCV 3.0
+import org.opencv.imgcodecs.Imgcodecs;
+import org.opencv.videoio.*;
+
 import org.opencv.imgproc.Imgproc;
 
 import android.content.Context;
@@ -916,10 +924,9 @@ public class Main_thread extends Thread implements IOIOLooperProvider 		// imple
 				else 			dest2 = dest;
 
 				// compress to jpeg using opencv...not sure it's faster than using Bitmap Compress
-				MatOfInt  params = new MatOfInt(Highgui.IMWRITE_JPEG_QUALITY, compression_rate);		
+				MatOfInt  params = new MatOfInt(Imgcodecs.IMWRITE_JPEG_QUALITY, compression_rate);
 				MatOfByte buff = new MatOfByte();
-				Highgui.imencode(".jpg", dest2, buff, params);	//actually return data in BGR format (default openCV format)
-				//************************/
+				Imgcodecs.imencode(".jpg", dest2, buff, params);	//actually return data in BGR format (default openCV format)
 				
 				data_frame = buff.toArray();
 				NEW_FRAME = true;
@@ -964,7 +971,7 @@ public class Main_thread extends Thread implements IOIOLooperProvider 		// imple
 	}
 	
 	/**
-	 * Load openCV libraries 2.4.8.
+	 * Load openCV libraries 3.0.0.
 	 * */
 	private void load_opencv()
 	{
@@ -982,8 +989,9 @@ public class Main_thread extends Thread implements IOIOLooperProvider 		// imple
 					break;
 				}
 			}
-		};		
-		if (!OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_8, the_gui, mLoaderCallback)) // load opencv 2.4.8 libraries
+		};
+		if (!OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_0_0, the_gui, mLoaderCallback)) // load opencv 3.0.0 libraries
+		// if (!OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_8, the_gui, mLoaderCallback)) // load opencv 2.4.8 libraries
 			Log.e(TAG, "Cannot connect to OpenCV Manager");		
 	}
 }

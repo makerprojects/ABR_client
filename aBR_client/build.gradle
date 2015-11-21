@@ -27,5 +27,6 @@ dependencies {
 
     /* compile locally */
 
-    compile project(':openCVLibrary2411')
+    compile project(':openCVLibrary30')
+
 }
